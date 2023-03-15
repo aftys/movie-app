@@ -40,7 +40,7 @@ function App() {
                     <p className="text-white text-xl">Top Rated</p>
                     <p className="text-gray-400 cursor-pointer text-xl">See all &gt;</p>
                 </div>
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-flow-row-dense p-4 gap-5 w-full ">
+                <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 grid-flow-row-dense p-4 gap-5 w-full ">
                     {films.map(item => (
                             <motion.div key={item.id}
                                 className="h-[270px]  rounded-xl overflow-hidden flex justify-center items-center bg-ligray hover:border-2 border-red-500" 
@@ -58,7 +58,7 @@ function App() {
                     <>
                         <motion.div
                             animate={{ opacity: 1 }} initial={{ opacity: 0 }} exit={{ opacity: 0 }}
-                            class="fixed top-0 right-0 left-0 bottom-0 backdrop-blur-sm z-40">
+                            class="fixed top-0 right-0 left-0 bottom-0 backdrop-blur-sm z-50">
 
                         </motion.div>
                         <motion.div

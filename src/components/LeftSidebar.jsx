@@ -7,7 +7,7 @@ import { AiFillHome } from 'react-icons/ai'
 const LeftSidebar=()=>{
     const [activeLink, setActiveLink]=React.useState(1);
     return (
-    <div className=" absolute w-full h-full py-[50px] text-gray-500 pl-5 justify-around gap-5 flex flex-col overflow-scroll">
+    <div className=" absolute w-full h-full py-[60px] text-gray-500 pl-5 justify-around gap-5 flex flex-col overflow-scroll">
         {menuItems.map((item)=>(
             <div className="w-full h-[30%] flex flex-col justify-start gap-4">
                 <p className="text-sm">{item.category}</p>

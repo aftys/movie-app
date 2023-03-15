@@ -48,6 +48,7 @@ const Slider = ({ slides ,id}) => {
           stiffness: 260,
           damping: 20
         }}
+        className="h-full w-full"
         src={slides.backdrops[currentIndex]}/></AnimatePresence>
       <div className="absolute bottom-0 w-full flex justify-center">
         {isHovered && slides.backdrops.map((slide, slideIndex) => (
