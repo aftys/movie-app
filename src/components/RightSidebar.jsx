@@ -67,7 +67,7 @@ const RightSidebar = () => {
                     <p className="text-gray-400 text-3xl h-full w-[15%] flex justify-center"><MdSearch/></p>
                     <input className="bg-transparent text-center h-full  text-gray-400 w-[70%]" placeholder="Search a Movie" />
                 </div>
-                <div className='bg-main-dark-bg h-[10px] w-full'/>
+                <div className='bg-main-dark-bg h-[20px] w-full'/>
             </div>
             ////////categories
             <div className="w-[90%] px-2 mt-[120px]">

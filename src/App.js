@@ -9,8 +9,6 @@ const style = {
   main: "fixed h-screen  overflow-scroll left-[280px] right-[280px] bg-black  h-full items-center  z-20    "
 }
 
-
-
 function App() {
   return (
     <div className={style.app}>
